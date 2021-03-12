@@ -24,7 +24,6 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "bobthecow/faker": "dev-master",
         "doctrine/orm": "^2.8",
         "monolog/monolog": "^2.2",
         "php-di/php-di": "^6.3",
@@ -32,10 +31,13 @@
         "slim/slim": "^4.7"
     },
     "require-dev": {
+        "bobthecow/faker": "dev-master",
+        "guzzlehttp/guzzle": "^7.2",
         "jangregor/phpstan-prophecy": "^0.8.1",
         "phpstan/extension-installer": "^1.1.0",
         "phpstan/phpstan": "^0.12.80",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^8.5",
+        "selective/test-traits": "^1.0"
     },
     "config": {
         "process-timeout": 0,
@@ -53,6 +55,6 @@
     },
     "scripts": {
         "start": "php -S localhost:8080 -t public",
-        "test": "phpunit"
+        "test": "phpunit -vvv"
     }
 }

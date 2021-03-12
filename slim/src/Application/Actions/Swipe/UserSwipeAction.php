@@ -27,10 +27,10 @@ class UserSwipeAction extends Action
     private $swipeFactory;
 
     /** @var string */
-    private const MATCH_RESPONSE = 'There is a match';
+    public const MATCH_RESPONSE = 'There is a match';
 
     /** @var string */
-    private const NO_MATCH_RESPONSE = 'No match';
+    public const NO_MATCH_RESPONSE = 'No match';
 
     /** @var string */
     private const LIKE = 'YES';

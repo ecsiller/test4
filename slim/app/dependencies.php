@@ -57,7 +57,7 @@ return function (ContainerBuilder $containerBuilder) {
                     $doctrineSettings['connection'],
                     $config
                 );
-            },
+            }
         ]
     );
 };

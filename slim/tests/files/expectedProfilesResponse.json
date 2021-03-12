@@ -1,0 +1,79 @@
+{
+  "statusCode": 200,
+  "data": {
+    "users": [
+      {
+        "id": "6",
+        "email": "schultz_birdie@watsica.com",
+        "name": "Birdie Schultz",
+        "gender": "M",
+        "age": "58",
+        "preferred_number": "1",
+        "latitude": "-20",
+        "longitude": "102",
+        "like_count": "0",
+        "photos": []
+      },
+      {
+        "id": "7",
+        "email": "gavin_hansen_miss@sanford.net",
+        "name": "Miss Gavin Hansen",
+        "gender": "F",
+        "age": "21",
+        "preferred_number": "1",
+        "latitude": "-47",
+        "longitude": "-36",
+        "like_count": "9",
+        "photos": []
+      },
+      {
+        "id": "4",
+        "email": "korey_harris@rennersmitham.org",
+        "name": "Korey Harris",
+        "gender": "M",
+        "age": "70",
+        "preferred_number": "1",
+        "latitude": "-10",
+        "longitude": "133",
+        "like_count": "0",
+        "photos": []
+      },
+      {
+        "id": "9",
+        "email": "stanton_carmel_mrs@dietrich.biz",
+        "name": "Mrs. Carmel Stanton",
+        "gender": "F",
+        "age": "89",
+        "preferred_number": "1",
+        "latitude": "-75",
+        "longitude": "-173",
+        "like_count": "6",
+        "photos": []
+      },
+      {
+        "id": "8",
+        "email": "elisha_predovic@labadie.com",
+        "name": "Elisha Predovic",
+        "gender": "F",
+        "age": "93",
+        "preferred_number": "1",
+        "latitude": "88",
+        "longitude": "-11",
+        "like_count": "7",
+        "photos": []
+      },
+      {
+        "id": "1",
+        "email": "samson_ms_kuphal@swaniawski.net",
+        "name": "Ms. Samson Kuphal",
+        "gender": "M",
+        "age": "78",
+        "preferred_number": "1",
+        "latitude": "-69",
+        "longitude": "-124",
+        "like_count": "5",
+        "photos": []
+      }
+    ]
+  }
+}
