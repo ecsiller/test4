@@ -10,7 +10,7 @@
 
 5. Run `php vendor/bin/doctrine orm:schema-tool:update --force`
 
-6. Run `composer test`
+6. *Optional Run* `composer test`
 
 ## Usage
 1. Create user ->  POST http://localhost/user/create 
