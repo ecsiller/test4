@@ -4,13 +4,15 @@
 
 2. Run `docker-compose up -d`
 
-3. Run `docker exec -it test4_php_1 bash -l`
+3. Run `docker exec -it test4_php_1 bash -l` for PHP container
 
-4. Run `composer install`
+4. Run `composer install` in PHP container
 
-5. Run `php vendor/bin/doctrine orm:schema-tool:update --force`
+5. Create 'muz' database in docker container using preferred mysql client default credentials (user:root, pass:hello, host: 127.0.0.1) 
 
-6. *Optional Run* `composer test`
+6. Run `php vendor/bin/doctrine orm:schema-tool:update --force` in PHP container
+
+6. *Optional Run* `composer test` in PHP container
 
 ## Usage
 1. Create user ->  POST http://localhost/user/create 
